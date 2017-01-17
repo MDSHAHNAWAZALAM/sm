@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context="com.palle.uni_project.LoginFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imag1"
+        android:background="@drawable/logo"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Dravidian University"
+        android:textSize="23sp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:id="@+id/textview1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_user"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/imag2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User?....."
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="20dp"
+            android:id="@+id/textview2"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="30dp"
+            android:textAllCaps="false"
+            android:text="Register"
+            android:background="#778899"
+            android:textSize="15dp"
+            android:id="@+id/button1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imag3"
+            android:background="@drawable/register_user"
+            android:layout_marginLeft="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview3"
+            android:text="Have an account?"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
+            android:text="Login"
+            android:background="#778899"
+            android:textSize="15dp"
+            android:id="@+id/button2"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
